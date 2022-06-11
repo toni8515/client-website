@@ -1,0 +1,58 @@
+.about{
+    padding:50px;
+}
+body{
+    animation:fadeIn 5s;
+    font-family: 'Poppins', sans-serif;
+}
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+.center{
+    text-align:center;
+}
+.clinical{
+    border-top: 1px solid grey;
+    padding:50px;
+}
+.education{
+    border-bottom: 1px solid grey;
+    padding:50px;
+}
+.flex{
+    display:flex;
+    justify-content: flex-end;
+}
+/* .grid{
+    display:grid;
+    grid-template-columns: repeat(2, auto);
+} */
+.heading{
+    background-image: url("image.png");
+    height:500px;
+    color:white;
+}
+.letter{
+    border:2px solid teal;
+    border-radius:50%;
+    padding:10px;
+    width: 100px;
+    height: 100px;
+
+}
+.license{
+    border-bottom: 1px solid grey;
+    padding:50px;
+}
+.list{
+    text-align: left;
+}
+
+.professional{
+    border-top: 1px solid grey;
+    padding:50px;
+}
+.welcome{
+    padding-top:200px;
+}
